@@ -59,10 +59,6 @@
         </form>
         {% if prediction_text %}
             <div class="result">{{ prediction_text }}</div>
-        {% endif %}
-        {% if error %}
-            <div class="error">{{ error }}</div>
-        {% endif %}
     </div>
 </body>
 </html>
